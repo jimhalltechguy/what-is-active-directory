@@ -2,6 +2,33 @@
 Think of Active Directory like a telephone book - but one that stores names, usernames and passwords - along with information on who or what can log onto a system.
 Active Directory is used by 95% of Fortune 500 companies.
 
+<h1>Physical Components of Active Directory</h1>
+	<h2>Domain Controller</h2>
+		Server - physical, virtual and/or in the Azure cloud)
+		Hosts AD Database
+		Responds to authentication requests
+		Processes logins and enforces policies</h2>
+	AD Database (NTDS.dit)
+		Stores the data for the directory
+		Stores log files\
+		Structure of the DB is called a Schema
+Domains
+	One of the top level containers in AD
+	Holds a collection of objects - users, PCs, groups, etc
+	Serves as an administrative boundary for for managing objects inside it
+	Can enforce security & policy settings across all objects inside the domain
+Organizational Units (OU)
+	A container object inside of domains
+	Used to group other objects together
+	Lowest level container that can allow administrative privileges, group policies
+	Orgs frequently split up departments into OUs - Sales, IT, HR, Engineering, etc)
+Non-Container Objects
+	Users
+	Computers
+	Groups (used for setting access)
+	Printers
+	Group Policy Objects (GPO)
+
 
 This repo outlines key elements of <b>Windows Local and Domain Accounts</b>.<br/>
 	<h2>Local Account</h2> 
