@@ -4,10 +4,10 @@ Active Directory is used by 95% of Fortune 500 companies.
 
 <h1>Physical Components of Active Directory</h1>
 	<h2>Domain Controller</h2>
-		Server - physical, virtual and/or in the Azure cloud)</h2>
-		Hosts AD Database</h2>
-		Responds to authentication requests</h2>
-		Processes logins and enforces policies</h2>
+		<p></p>Server - physical, virtual and/or in the Azure cloud)</p>
+		<p>Hosts AD Database</p>
+		<p>Responds to authentication requests</p>
+		<p>Processes logins and enforces policies</p>
 	AD Database (NTDS.dit)
 		Stores the data for the directory
 		Stores log files\
