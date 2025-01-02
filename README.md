@@ -5,17 +5,17 @@ Active Directory is used by 95% of Fortune 500 companies.
 <h1>Physical Components of Active Directory:</h1>
 	<h2>Domain Controller</h2>
 		<p></p>Server - physical, virtual and/or in the Azure cloud)</p>
-		<p>Hosts AD Database</p>
+		<p>Hosts Active Directory database</p>
 		<p>Responds to authentication requests</p>
 		<p>Processes logins and enforces policies</p>
-	<h2>AD Database (NTDS.dit)</H2>
+	<h2>Active Directory Database (NTDS.dit)</H2>
 		<p>Stores the data for the directory</p>
 		<p>Stores log files</p>
-		<p>Structure of the DB is called a Schema</p>
+		<p>Structure of the database is called a <b>Schema</b></p>
 <H2>Domains</H2>
-	<p>One of the top level containers in AD</p>
+	<p>One of the top level containers in Active Directory</p>
 	<p>Holds a collection of objects - users, PCs, groups, etc.</p>
-	<p>Serves as an administrative boundary for for managing objects inside it</p>
+	<p>Serves as an administrative boundary for managing objects inside of it</p>
 	<p>Can enforce security & policy settings across all objects inside the domain</p>
 <H2>Organizational Units (OU)</H2>
 	<p>A container object inside of domains</p>
@@ -29,9 +29,3 @@ Active Directory is used by 95% of Fortune 500 companies.
 	<p>Printers</p>
 	<p>Group Policy Objects (GPO)</p>
 
-
-
-    	<b><p>OR</b></p>
-		<p>Click on <b>Start</b> (blue box at bottom left of task bar on Windows 11)</p>
-		<p>Type “<b>run</b>” in <b>Search Box</b> and click on <b>Run</b></p>
-		<p>Click “<b>Ok</b>” when “lusrmgr.msc” pop-up box appears and make account setting changes</p>
