@@ -12,17 +12,17 @@ Active Directory is used by 95% of Fortune 500 companies.
 		<p>Stores the data for the directory</p>
 		<p>Stores log files</p>
 		<p>Structure of the DB is called a Schema</p>
-Domains
+<H2>Domains</H2>
 	<p>One of the top level containers in AD</p>
 	<p>Holds a collection of objects - users, PCs, groups, etc.</p>
 	<p>Serves as an administrative boundary for for managing objects inside it</p>
 	<p>Can enforce security & policy settings across all objects inside the domain</p>
-Organizational Units (OU)
+<H2>Organizational Units (OU)</H2>
 	<p>A container object inside of domains</p>
 	<p>Used to group other objects together</p>
 	<p>Lowest level container that can allow administrative privileges, group policies</p>
 	<p>Orgs frequently split up departments into OUs - Sales, IT, HR, Engineering, etc.)</p>
-Non-Container Objects
+<H2>Non-Container Objects</H2>
 	<p>Users</p>
 	<p>Computers</p>
 	<p>Groups (used for setting access)</p>
