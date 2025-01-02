@@ -8,26 +8,26 @@ Active Directory is used by 95% of Fortune 500 companies.
 		<p>Hosts AD Database</p>
 		<p>Responds to authentication requests</p>
 		<p>Processes logins and enforces policies</p>
-	AD Database (NTDS.dit)
-		Stores the data for the directory
-		Stores log files\
-		Structure of the DB is called a Schema
+	<h2>AD Database (NTDS.dit)</H2>
+		<p>Stores the data for the directory</p>
+		<p>Stores log files</p>
+		<p>Structure of the DB is called a Schema</p>
 Domains
-	One of the top level containers in AD
-	Holds a collection of objects - users, PCs, groups, etc
-	Serves as an administrative boundary for for managing objects inside it
-	Can enforce security & policy settings across all objects inside the domain
+	<p>One of the top level containers in AD</p>
+	<p>Holds a collection of objects - users, PCs, groups, etc.</p>
+	<p>Serves as an administrative boundary for for managing objects inside it</p>
+	<p>Can enforce security & policy settings across all objects inside the domain</p>
 Organizational Units (OU)
-	A container object inside of domains
-	Used to group other objects together
-	Lowest level container that can allow administrative privileges, group policies
-	Orgs frequently split up departments into OUs - Sales, IT, HR, Engineering, etc)
+	<p>A container object inside of domains</p>
+	<p>Used to group other objects together</p>
+	<p>Lowest level container that can allow administrative privileges, group policies</p>
+	<p>Orgs frequently split up departments into OUs - Sales, IT, HR, Engineering, etc.)</p>
 Non-Container Objects
-	Users
-	Computers
-	Groups (used for setting access)
-	Printers
-	Group Policy Objects (GPO)
+	<p>Users</p>
+	<p>Computers</p>
+	<p>Groups (used for setting access)</p>
+	<p>Printers</p>
+	<p>Group Policy Objects (GPO)</p>
 
 
 This repo outlines key elements of <b>Windows Local and Domain Accounts</b>.<br/>
