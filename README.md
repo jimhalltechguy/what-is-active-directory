@@ -2,7 +2,7 @@
 Think of Active Directory like a telephone book - but one that stores names, usernames and passwords - along with information on who or what can log onto a system.
 Active Directory is used by 95% of Fortune 500 companies.
 
-<h1>Physical Components of Active Directory</h1>
+<h1>Physical Components of Active Directory:</h1>
 	<h2>Domain Controller</h2>
 		<p></p>Server - physical, virtual and/or in the Azure cloud)</p>
 		<p>Hosts AD Database</p>
